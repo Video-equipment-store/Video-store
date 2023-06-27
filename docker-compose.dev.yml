@@ -1,0 +1,57 @@
+version: "3.8"
+
+services:
+  backend:
+    container_name: backend
+    build: ./project/backend
+    command: /start_dev.sh
+    volumes:
+      - ./project/backend:/code
+      - django-static:/code/static
+      - django-media:/code/media
+    networks:
+      - django-nginx
+  
+  frontend:
+    container_name: frontend
+    build:
+      context: ./project/frontend
+    volumes:
+      - ./project/frontend:/app/:ro
+      - /app/node_modules
+    ports:
+      - "8080:8080"
+    depends_on:
+      - backend
+    networks:
+      - django-nginx
+    environment:
+      - NODE_ENV=development
+  
+  nginx:
+    container_name: nginx
+    build:
+      context: ./project/nginx
+      dockerfile: dev/Dockerfile
+
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - frontend
+
+
+    volumes:
+      - ./project/nginx/dev/dev.conf:/etc/nginx/nginx.conf:ro      
+      - django-static:/usr/src/app/static
+      - django-media:/usr/src/app/media
+    networks:
+      - django-nginx
+
+volumes:
+  django-static:
+  django-media:
+
+networks:
+  django-nginx:
+    driver: bridge
