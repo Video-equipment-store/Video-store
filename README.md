@@ -22,3 +22,6 @@ For local development (docker-compose.dev.yml), run the following command:
 ```bash
 docker compose -f docker-compose.dev.yml up --build
 ```
+
+#### API documentation:
+dev: http://127.0.0.1:8000/api/v1/docs/swagger/
