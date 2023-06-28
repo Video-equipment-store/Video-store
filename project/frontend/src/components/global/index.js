@@ -1,6 +1,10 @@
-import ExampleCard from "./ExampleCard.vue";
+import MainBanner from "./MainBanner.vue";
+import ProductCard from "./ProductCard.vue";
 
-const components = [{ name: "ExampleCard", component: ExampleCard }];
+const components = [
+  { name: "MainBanner", component: MainBanner },
+  { name: "ProductCard", component: ProductCard },
+];
 
 export default {
   install(app) {
