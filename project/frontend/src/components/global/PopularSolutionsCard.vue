@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="product-card">
+    <div class="solution-card">
         <h4 class="text-center">Предложение "базовая безопасность"</h4>
-        <img class="rounded mx-auto d-block" width="150px" src="/base-product.svg">
+        <img class="rounded mx-auto d-block" width="150px" src="/base-solution.svg">
         <div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, delectus?</p>
         </div>
@@ -17,7 +17,7 @@
 </template>
 
 <style scoped>
-.product-card {
+.solution-card {
     border-radius: 25px;
     background: #2138ad83;
     padding: 20px;
