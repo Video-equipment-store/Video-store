@@ -26,6 +26,11 @@ const solutions_list = [
         <ProductsCarousel/>
       </div>
 
+      <div class="work-exaples mt-3">
+        <h3 class="text-center mb-3">Примеры наших работ</h3>
+        <WorkExamples />
+      </div>
+
 
     </main>
 
@@ -42,6 +47,10 @@ const solutions_list = [
   margin: 10px;
 }
 .range-of-cameras{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.work-exaples{
   margin-left: 150px;
   margin-right: 150px;
 }
