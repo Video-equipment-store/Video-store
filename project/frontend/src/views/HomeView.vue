@@ -13,28 +13,22 @@ const solutions_list = [
 
 <template>
   <main>
-    <main>
-      <div class="d-flex justify-content-center">
-        <MainBanner />
-      </div>
+    <div class="d-flex justify-content-center m-5">
+      <MainBanner />
+    </div>
 
-      <div class="popular-solutions d-flex flex-wrap  justify-content-center">
-        <PopularSolutionsCard class="solution-card" v-for="solution in solutions_list" />
-      </div>
+    <div class="popular-solutions d-flex flex-wrap  justify-content-center">
+      <PopularSolutionsCard class="solution-card" v-for="solution in solutions_list" />
+    </div>
 
-      <div class="range-of-cameras">
-        <ProductsCarousel/>
-      </div>
+    <div class="range-of-cameras">
+      <ProductsCarousel />
+    </div>
 
-      <div class="work-exaples mt-3">
-        <h3 class="text-center mb-3">Примеры наших работ</h3>
-        <WorkExamples />
-      </div>
-
-
-    </main>
-
-
+    <div class="work-exaples mt-5 mb-5">
+      <h3 class="text-center mb-3">Примеры наших работ</h3>
+      <WorkExamples />
+    </div>
   </main>
 </template>
 
@@ -46,11 +40,13 @@ const solutions_list = [
 .solution-card {
   margin: 10px;
 }
-.range-of-cameras{
+
+.range-of-cameras {
   margin-left: 150px;
   margin-right: 150px;
 }
-.work-exaples{
+
+.work-exaples {
   margin-left: 150px;
   margin-right: 150px;
 }
