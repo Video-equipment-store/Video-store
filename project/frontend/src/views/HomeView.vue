@@ -1,6 +1,6 @@
 <script setup>
 
-const product_list = [
+const solutions_list = [
   { id: 1, name: "Product1" },
   { id: 2, name: "Product2" },
   { id: 3, name: "Product3" },
@@ -19,7 +19,7 @@ const product_list = [
       </div>
 
       <div class="popular-solutions d-flex flex-wrap  justify-content-center">
-        <PopularSolutionsCard class="solution-card" v-for="product in product_list" />
+        <PopularSolutionsCard class="solution-card" v-for="solution in solutions_list" />
       </div>
 
       <div class="range-of-cameras">
