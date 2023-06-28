@@ -23,9 +23,8 @@
 <style scoped>
 .main-banner {
     border-radius: 25px;
-    background: #73AD21;
     padding: 20px;
     width: 500px;
-    height: 35\00px;
+    border: solid;
 }
 </style>

@@ -4,7 +4,7 @@
 <template>
     <div class="product-card">
         <div class="d-flex justify-content-center mt-3">
-            <div style="background-color: aquamarine; width: 100px; height: 100px;"></div>
+            <img width="100" src="/base-solution.svg">
         </div>
         <h4 class="text-center">Название камеры</h4>
         <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>

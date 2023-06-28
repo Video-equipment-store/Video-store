@@ -24,7 +24,7 @@ import router from '../router'
                     </div>
                 </div>
                 <div class="col nav-content-item">
-                    <button class="btn nav-submit-btn">Оставить заявку</button>
+                    <button class="btn btn-warning p-1">Оставить заявку</button>
                 </div>
 
             </div>
@@ -60,9 +60,4 @@ import router from '../router'
     max-height: 30px;
 }
 
-.nav-submit-btn {
-    background-color: yellow;
-    /* max-height: 30px; */
-
-}
 </style>
