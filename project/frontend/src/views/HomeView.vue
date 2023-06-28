@@ -18,8 +18,12 @@ const product_list = [
         <MainBanner />
       </div>
 
-      <div class="product-cards d-flex flex-wrap  justify-content-center">
-        <ProductCard class="product-card" v-for="product in product_list" />
+      <div class="popular-solutions d-flex flex-wrap  justify-content-center">
+        <PopularSolutionsCard class="solution-card" v-for="product in product_list" />
+      </div>
+
+      <div class="range-of-cameras">
+        <ProductsCarousel/>
       </div>
 
 
@@ -30,11 +34,11 @@ const product_list = [
 </template>
 
 <style scoped>
-.product-cards {
+.popular-solutions {
   margin: 50px;
 }
 
-.product-card {
+.solution-card {
   margin: 10px;
 }
 </style>

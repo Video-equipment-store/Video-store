@@ -1,9 +1,11 @@
 import MainBanner from "./MainBanner.vue";
-import ProductCard from "./ProductCard.vue";
+import PopularSolutionsCard from "./PopularSolutionsCard.vue";
+import ProductsCarousel from "./ProductsCarousel.vue";
 
 const components = [
   { name: "MainBanner", component: MainBanner },
-  { name: "ProductCard", component: ProductCard },
+  { name: "PopularSolutionsCard", component: PopularSolutionsCard },
+  { name: "ProductsCarousel", component: ProductsCarousel },
 ];
 
 export default {
