@@ -41,4 +41,8 @@ const solutions_list = [
 .solution-card {
   margin: 10px;
 }
+.range-of-cameras{
+  margin-left: 150px;
+  margin-right: 150px;
+}
 </style>

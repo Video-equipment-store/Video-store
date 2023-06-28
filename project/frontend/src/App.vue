@@ -8,13 +8,6 @@ import Footer from './components/Footer.vue'
   <header>
     <NavBar />
     <hr>
-    <h3>
-      <RouterLink to="/">Home</RouterLink>
-    </h3>
-    <h3>
-      <RouterLink to="/about">About</RouterLink>
-    </h3>
-    <hr>
     <RouterView />
     <hr>
     <Footer />
