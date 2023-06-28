@@ -10,6 +10,7 @@
 - Bootstrap 5 (cdn in base template index.html) 
 - Pinia
 - axios (consection with api)
+- vue3-carousel
 
 #### Database - Sqlite
 
