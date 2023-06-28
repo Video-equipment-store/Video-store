@@ -21,7 +21,7 @@
     border-radius: 25px;
     background: #2138ad83;
     padding: 20px;
-    width: 300px;
+    width: 250px;
     height: 400px;
 }
 </style>

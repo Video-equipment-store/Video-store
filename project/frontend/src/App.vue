@@ -5,12 +5,16 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <header>
+  <main class="main-content">
     <NavBar />
     <RouterView />
     <Footer />
 
-  </header>
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.main-content{
+  background-color: rgba(121, 121, 125, 0.492);
+}
+</style>

@@ -5,8 +5,8 @@ import router from '../router'
 
 <template>
     <nav>
-        <div class="nav-content">
-            <div class="row">
+        <div class="nav-content pt-4">
+            <div class="row d-flex align-items-center">
                 <div class="col nav-content-item">
                     <img src="/lable.svg">
                 </div>
@@ -29,13 +29,15 @@ import router from '../router'
 
             </div>
             <div class="d-flex justify-content-between">
-                <button type="button" class="btn btn-outline-secondary" @click="router.push({ name: 'home' })">Главная</button>
+                <button type="button" class="btn btn-outline-secondary"
+                    @click="router.push({ name: 'home' })">Главная</button>
                 <button type="button" class="btn btn-outline-secondary">Видеонаблюдение</button>
                 <button type="button" class="btn btn-outline-secondary">Домофония</button>
                 <button type="button" class="btn btn-outline-secondary">Контроль</button>
                 <button type="button" class="btn btn-outline-secondary">Наши работы</button>
 
-                <button type="button" class="btn btn-outline-secondary" @click="router.push({ name: 'about' })">О компании</button>
+                <button type="button" class="btn btn-outline-secondary" @click="router.push({ name: 'about' })">О
+                    компании</button>
 
             </div>
         </div>
@@ -45,9 +47,8 @@ import router from '../router'
 
 <style scoped>
 .nav-content {
-    margin-left: 80px;
-    margin-right: 80px;
-    border: 1px solid;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .nav-content-item {
@@ -61,5 +62,7 @@ import router from '../router'
 
 .nav-submit-btn {
     background-color: yellow;
+    /* max-height: 30px; */
+
 }
 </style>
