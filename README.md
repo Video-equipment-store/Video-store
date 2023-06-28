@@ -7,7 +7,7 @@
 #### Frontend 8080 port: 
 
 - Vue 3
-- Bootstrap 5
+- Bootstrap 5 (cdn in base template index.html) 
 - Pinia
 - axios (consection with api)
 

@@ -1,8 +1,10 @@
 <template>
-  <div class="about">
-    <h5>About view</h5>
-  </div>
-</template>
+  <main>
+    <h4>About view</h4>
+    <div>
+      <h5>Example global component: </h5>
+      <ExampleCard />
+    </div>
 
-<style>
-</style>
+  </main>
+</template>
