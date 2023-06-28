@@ -4,7 +4,7 @@
 
 <template>
     <div>
-
+        <h1>Global component</h1>
     </div>
 </template>
 
