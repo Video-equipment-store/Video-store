@@ -1,4 +1,6 @@
 <script setup>
+import router from '../router'
+
 </script>
 
 <template>
@@ -27,12 +29,13 @@
 
             </div>
             <div class="d-flex justify-content-between">
-                <button type="button" class="btn btn-outline-secondary">Главная</button>
+                <button type="button" class="btn btn-outline-secondary" @click="router.push({ name: 'home' })">Главная</button>
                 <button type="button" class="btn btn-outline-secondary">Видеонаблюдение</button>
                 <button type="button" class="btn btn-outline-secondary">Домофония</button>
                 <button type="button" class="btn btn-outline-secondary">Контроль</button>
                 <button type="button" class="btn btn-outline-secondary">Наши работы</button>
-                <button type="button" class="btn btn-outline-secondary">О компании</button>
+
+                <button type="button" class="btn btn-outline-secondary" @click="router.push({ name: 'about' })">О компании</button>
 
             </div>
         </div>
