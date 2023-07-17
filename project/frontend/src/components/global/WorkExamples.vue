@@ -28,8 +28,8 @@
 
 <style scoped>
 .exaple-item {
-    width: 200px;
-    border-radius: 25px;
-    padding: 10px;
+    /* width: 200px;*/
+    border-radius: 25px; 
+    /* padding: 10px; */
 }
 </style>

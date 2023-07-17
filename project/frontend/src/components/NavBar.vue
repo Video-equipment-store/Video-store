@@ -17,7 +17,7 @@ import router from '../router'
                     <span>+7-999-999-99-99</span>
                 </div>
                 <div class="col nav-content-item">
-                    <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-center">
                         <img class="nav-icon" src="/icon-phone.svg">
                         <img class="nav-icon" src="/icon-wp.svg">
                         <img class="nav-icon" src="/icon-telega.svg">
@@ -29,14 +29,12 @@ import router from '../router'
 
             </div>
             <div class="d-flex justify-content-between">
-                <button type="button" class="btn btn-outline-secondary"
-                    @click="router.push({ name: 'home' })">Главная</button>
-                <button type="button" class="btn btn-outline-secondary">Видеонаблюдение</button>
-                <button type="button" class="btn btn-outline-secondary">Домофония</button>
-                <button type="button" class="btn btn-outline-secondary">Контроль</button>
-                <button type="button" class="btn btn-outline-secondary">Наши работы</button>
-
-                <button type="button" class="btn btn-outline-secondary" @click="router.push({ name: 'about' })">О
+                <button type="button" class="btn btn-sm btn-outline-secondary" @click="router.push({ name: 'home' })">Главная</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Видеонаблюдение</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Домофония</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Контроль</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Наши работы</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary" @click="router.push({ name: 'about' })">О
                     компании</button>
 
             </div>
@@ -59,5 +57,4 @@ import router from '../router'
     max-width: 30px;
     max-height: 30px;
 }
-
 </style>

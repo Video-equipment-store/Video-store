@@ -7,7 +7,7 @@
             <img width="100" src="/base-solution.svg">
         </div>
         <h4 class="text-center">Название камеры</h4>
-        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p class="text-center">Lorem ipsum dolor sit, amet</p>
         <div>
             <div>
                 <span>Матрица</span>.....<span>2 МП</span>
@@ -21,9 +21,8 @@
             <div>
                 <span>Поодержка MicroSD</span>.....<span>да</span>
             </div>
-            <button class="btn btn-outline-warning mt-2">Все характеристики</button>
-
         </div>
+        <button class="btn btn-sm btn-outline-warning mt-2">Все характеристики</button>
 
 
     </div>
@@ -32,7 +31,7 @@
 <style scoped>
 .product-card {
     border-radius: 25px;
-    height: 380px;
+    height: 400px;
     width: 250px;
     /* background-color: rgba(165, 42, 42, 0.355); */
     border: solid;
