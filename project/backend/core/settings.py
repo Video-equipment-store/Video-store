@@ -40,7 +40,9 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
     "http://127.0.0.1:8080",
+    # "https://7469-5-144-123-114.ngrok-free.app", # data for ngrok
 ]
+# CSRF_TRUSTED_ORIGINS = ["https://7469-5-144-123-114.ngrok-free.app"] # data for ngrok
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
